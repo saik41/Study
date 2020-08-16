@@ -1,0 +1,6 @@
+Practice Tests are pending:
+1. Config Map
+2. Commands & Arguments
+3. Secrets
+4. Multi Container PODs
+5. Init Containers
