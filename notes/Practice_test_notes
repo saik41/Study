@@ -1,0 +1,6 @@
+We need to take node01 out for maintenance. Empty the node of all applications and mark it unschedulable.
+Ans: "kubectl drain node01 --ignore-daemonsets"
+
+ForceFully Drain a Node(saving the daemonsets)
+- "kubectl drain node02 --ignore-daemonsets --force"
+
