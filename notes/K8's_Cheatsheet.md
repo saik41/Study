@@ -36,4 +36,6 @@
 - Change namespace - kubectl config set-context $(kubectl config current-context) --namespace=<namespace>
 - Chechk namespace - kubectl config view | grep namespace
 - Check pods then - kubectl get pods
+- To block a node from deployment - kubectl drain master/controlplane --ignore-daemonsets
+- To queery the cluster info - kubectl get all --all-namespace -o yaml > all-deploy-service.yaml
 - 
