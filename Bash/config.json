@@ -1,0 +1,204 @@
+{
+  "repo":{
+	"ledger": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "hotfix/drone-0040"
+	},
+	"nexus-cloud": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "hotfix/drone-0040"
+	},
+	"nexus-idl": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "hotfix/drone-0040"
+	},
+	"thirdparty": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"librdkafka": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"nexus-ui": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"crt": {
+		"dev": "development",
+		"release": "development",
+		"hotfix": "development"
+	},
+	"common": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"nexus": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "hotfix/drone-0040"
+	},
+
+	"toolchain": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"libhtp": {
+		"dev": "0.5.30",
+		"release": "0.5.30",
+		"hotfix": "0.5.30"
+	},
+	"isc-kea-dhcp": {
+		"dev": "v1_4_0",
+		"release": "v1_4_0",
+		"hotfix": "v1_4_0"
+	},
+	"isc-bind9": {
+		"dev": "v9_11",
+		"release": "v9_11",
+		"hotfix": "v9_11"
+	},
+	"iperf": {
+		"dev": "3.2-STABLE",
+		"release": "3.2-STABLE",
+		"hotfix": "3.2-STABLE"
+	},
+	"fluent-bit": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"develop-nexus-templates": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"pomerium": {
+		"dev": "feature/pomerium090",
+		"release": "feature/pomerium090",
+		"hotfix": "feature/pomerium090"
+	},
+	"procman": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"suricata-binaries": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"dns-binaries": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"dnsmasq-binaries": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"webroot-binaries": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"python_utils": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"ddosmodel": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"trafficmonitor": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"fluent-bit-bin": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"sslproxy-bin": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"coredns": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+
+	"mobileui": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"executor": {
+		"dev": "develop",
+		"release": "develop",
+		"hotfix": "development"
+	},
+
+	"networkmanager": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"memcached": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"edgelansvc": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"cirrus-tools": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"cirruscloud": {
+		"dev": "master",
+		"release": "master",
+		"hotfix": "master"
+	},
+	"bridge-ui": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+	},
+  "getting-started": {
+		"dev": "develop",
+		"release": "master",
+		"hotfix": "master"
+  }
+},
+   "auth":[{
+     "username":"saikiran.sarab.cslt@privafy.com",
+     "password":"S@i9439070026"
+   }],
+   "url":[{
+     "link":"https://api.bitbucket.org/2.0/repositories/rmgtechnologies"
+     }]
+}

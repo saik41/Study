@@ -1,0 +1,12 @@
+{
+    "repos": [
+      "getting-started"
+    ],
+
+}
+
+
+unset LOSS
+read -s -p "Press a key: "
+LOSS="$REPLY"
+key="$LOSS"

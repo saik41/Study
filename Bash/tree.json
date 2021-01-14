@@ -1,0 +1,20 @@
+{
+  "repos": {
+    "getting-started": {
+      "develop": "develop",
+      "release": "master",
+      "drone": "master"
+    }
+  },
+  "auth": [{
+    "username": "saikiran.sarab.cslt@privafy.com",
+    "password": "S@i9439070026"
+  }],
+  "url": [{
+    "link": "https://api.bitbucket.org/2.0/repositories/rmgtechnologies"
+  }],
+  "groups":[{
+    "name": "developers",
+    "slug":"Developers"
+    }]
+}

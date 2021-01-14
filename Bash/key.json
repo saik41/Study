@@ -1,0 +1,54 @@
+HTTP / 2 201
+server: nginx
+vary: Authorization
+content - type: application / json;
+charset = utf - 8
+x - b3 - traceid: fb7ae0e1bd13d31c
+x - dc - location: ash2
+strict - transport - security: max - age = 31536000;
+includeSubDomains;
+preload
+date: Sat, 22 Aug 2020 13: 03: 26 GMT
+location: https: //api.bitbucket.org/2.0/repositories/rmgtechnologies/getting-started/branch-restrictions/14474388
+  x - served - by: app - 3006
+x - static - version: 6 d9bfce6b14b
+x - content - type - options: nosniff
+x - accepted - oauth - scopes: repository: admin
+x - credential - type: password
+x - render - time: 0.15492105484
+x - request - count: 197
+x - frame - options: SAMEORIGIN
+x - version: 6 d9bfce6b14b
+dc - location: ash2
+content - length: 825 {
+  "kind": "restrict_merges",
+  "users": [{
+    "display_name": "Saikiran Sarab",
+    "uuid": "{1073bcad-8d52-425f-8666-87b35fa57e0e}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7B1073bcad-8d52-425f-8666-87b35fa57e0e%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7B1073bcad-8d52-425f-8666-87b35fa57e0e%7D/"
+      },
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5d9ae83f87dd6f0dcb4d0cc8/8403d933-f962-4d00-b427-588f891ed9bd/128"
+      }
+    },
+    "nickname": "Sai Kiran",
+    "type": "user",
+    "account_id": "5d9ae83f87dd6f0dcb4d0cc8"
+  }],
+  "links": {
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/rmgtechnologies/getting-started/branch-restrictions/14474388"
+    }
+  },
+  "pattern": "develop",
+  "value": null,
+  "branch_match_kind": "glob",
+  "groups": [],
+  "type": "branchrestriction",
+  "id": 14474388
+}
